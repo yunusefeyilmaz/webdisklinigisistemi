@@ -7,6 +7,7 @@ Siteyi internet üzerinden ulaşmak için [buraya tıklayınız](http://yilmazdi
 Doktor girişi için altaki değerleri kullanabilirsiniz.
 
 > Kullanıcı Adı : yunus
+
 > Şifre : 123456
 
 Sitenin kullanımı hakkında bilgi almak için [buraya tıklayınız](http://yilmazdisklinik.rf.gd/).
