@@ -1,0 +1,302 @@
+.bodylogin {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: #f6f7fa;
+}
+.sendbody {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.loginform {
+  display: flex;
+  width: 500px;
+  height: 600px;
+  position: absolute;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  background-color: #f8f9fc;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.panelhead {
+  display: flex;
+  justify-content: space-between;
+}
+.panellogodiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.panelbuttonupdate {
+  border-radius: 8px;
+  border: rgb(138, 184, 221);
+  color: rgb(49, 47, 47);
+  background-color: rgb(138, 184, 221);
+  height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  width: 80px;
+}
+.panelbuttonupdate:hover {
+  background-color: #2e23f3;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+}
+
+.panelbuttondelete {
+  border-radius: 8px;
+  border: rgb(221, 138, 138);
+  color: rgb(49, 47, 47);
+  background-color: rgb(244, 172, 172);
+  height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  width: 80px;
+  margin-top: 10px;
+}
+.panelbuttondelete:hover {
+  background-color: #e54d2e;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+}
+.panelbuttonexit {
+  float: right;
+  margin-right: 25px;
+  border-radius: 8px;
+  border: rgb(221, 138, 138);
+  color: rgb(49, 47, 47);
+  background-color: rgb(244, 172, 172);
+  height: 50px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  width: 100px;
+}
+.panelbuttonexit:hover {
+  background-color: #e54d2e;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+}
+.panelbuttondoctor {
+  float: right;
+  margin-right: 25px;
+  border-radius: 8px;
+  border: rgb(164, 198, 253);
+  color: rgb(49, 47, 47);
+  background-color: rgb(164, 198, 253);
+  height: 50px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  width: 100px;
+}
+.panelbuttondoctor:hover {
+  background-color: #1b5af7;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+}
+.panelwelcome {
+  margin-bottom: 50px;
+}
+.panelwelcometext {
+  font-size: 4em;
+  margin-left: 1em;
+  margin-bottom: 0px;
+  font-family: Verdana;
+}
+.panelilllist {
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.paneldate {
+  margin-top: 25px;
+}
+.paneldateinput {
+  font-size: 3em;
+  width: 300px;
+  height: 50px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  border-color: white;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.panelbtdate {
+  border: white;
+  color: rgb(49, 47, 47);
+  background-color: white;
+  height: 50px;
+  width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.panelbtdate:hover {
+  background-color: #a4b9f2;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+}
+.panelilldiv {
+  flex-direction: column;
+  width: 100%;
+  background-color: #fff7f7;
+  padding: 15px;
+  margin-bottom: 25px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.paneldaterefresh {
+  width: 25%;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.logindoctorbt {
+  border: white;
+  color: white;
+  background-color: rgb(251, 91, 91);
+  border-radius: 8px;
+  width: 120px;
+  height: 75px;
+  float: right;
+  margin-right: 25px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.logindoctorbt:hover {
+  background-color: #f90d0d;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  color: #fff;
+}
+.indexhead {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.indexbody {
+  background-color: #f6f7fa;
+  width: 100%;
+}
+.formdiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 800px;
+  background-color: #f8f9fc;
+  padding: 80px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.inputbox {
+  width: 300px;
+  height: 25px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  border-color: white;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.inputboxlogin {
+  width: 300px;
+  height: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-color: white;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.indexlabelinput {
+  font-size: 20px;
+  font-family: Verdana;
+}
+.loginheadlbl {
+  font-size: 20px;
+  font-family: Verdana;
+  text-align: center;
+  justify-content: center;
+}
+.indexboxarea {
+  max-width: 300px;
+  max-height: 200px;
+  width: 300px;
+  height: 25px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  border-color: white;
+  margin-bottom: 15px;
+  border-radius: 9px;
+}
+.inputbutton {
+  border: white;
+  color: rgb(49, 47, 47);
+  background-color: white;
+  height: 50px;
+  width: 305px;
+  float: left;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  margin-top: 30px;
+}
+.inputbutton:hover {
+  background-color: #49e52e;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+}
+.indexfoot {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.indexlogodiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+}
+.logolbl {
+  font-size: 4em;
+  font-family: Verdana;
+}
+.lblWelcome {
+  font-family: Verdana;
+  font-size: 8em;
+  margin-left: 1em;
+  margin-bottom: 0px;
+}
+.lblWelcomeunder {
+  font-size: 2em;
+  margin-left: 4em;
+}
+.backbutton {
+  border-radius: 8px;
+  border: white;
+  color: rgb(49, 47, 47);
+  background-color: white;
+  height: 50px;
+  width: 100px;
+  float: left;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.backbutton:hover {
+  background-color: #e54d2e;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+}
