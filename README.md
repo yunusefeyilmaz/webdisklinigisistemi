@@ -4,7 +4,7 @@ Bu proje **Web Tabalı Programlama** dersinin ödevi olarak hazırlanmıştır. 
 
 Siteyi internet üzerinden ulaşmak için [buraya tıklayınız](http://yilmazdisklinik.rf.gd/).
 
-Doktor girişi için altaki değerleri kullanabilirsiniz.
+Doktor girişi için alttaki değerleri kullanabilirsiniz.
 
 > Kullanıcı Adı : yunus
 
