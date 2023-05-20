@@ -12,4 +12,19 @@ Doktor girişi için alttaki değerleri kullanabilirsiniz.
 
 Sitenin kullanımı hakkında bilgi almak için [buraya tıklayınız](http://yilmazdisklinik.rf.gd/).
 
+## KURULUM
+
+XAMPP üzerinden nasıl çalıştırılır. Alttaki adımları takip edin.
+
+1- Dosyaları indirin.
+
+2- Dosyaları ZIP içinden çıkartın. Çıkartığınız dosyaları /xampp/htdocs/phpsite içerisine atın. phpsite klasörü yoksa oluşturun.
+
+3- XAMPP üzerinden apache ve MySQL servislerini başlatın.
+
+4- http://localhost:8080/phpmyadmin/index.php?route=/server/import&lang=tr adresine gidip /phpsite klasörü içerisinde bulunan discirandevu.sql dosyasını içe aktarın.
+
+5- Veritabanı oluşmuş oldu. http://localhost:8080/phpsite/ adresine gidebilirsiniz. Web sitesini rahatlıkla kullanabilirsiniz.
+
+NOT: Eğer farklı MySQL parametreleri kullanıyorsanız config.php dosyasından değiştirin.
 
