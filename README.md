@@ -10,7 +10,7 @@ Doktor girişi için alttaki değerleri kullanabilirsiniz.
 
 > Şifre : 123456
 
-Sitenin kullanımı hakkında bilgi almak için [buraya tıklayınız](http://yilmazdisklinik.rf.gd/).
+Sitenin kullanımı hakkında bilgi almak için [buraya tıklayınız](https://youtu.be/PACz7PgZUds).
 
 ## KURULUM
 
